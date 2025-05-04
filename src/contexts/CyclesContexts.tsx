@@ -2,10 +2,9 @@ import { createContext, useState, useReducer, useEffect } from 'react'
 import type { ReactNode } from 'react'
 import { CyclesReducer, type Cycle } from '../reducers/cycles/reducer'
 import {
-  ActionTypes,
   addNewCycleAction,
   interruptCurrentCycleAction,
-  markCurrentAsFinishAction,
+  markCurrentAsFinishAction
 } from '../reducers/cycles/actions'
 import { differenceInSeconds } from 'date-fns'
 

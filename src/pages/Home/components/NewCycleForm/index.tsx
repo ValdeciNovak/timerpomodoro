@@ -1,7 +1,5 @@
-import { useForm, useFormContext } from 'react-hook-form'
+import { useFormContext } from 'react-hook-form'
 import { FormContainer, MinutesAmountInput, TaskInput } from './styled'
-import * as zod from 'zod'
-import { zodResolver } from '@hookform/resolvers/zod'
 import { useContext } from 'react'
 import { CyclesContext } from '../../../../contexts/CyclesContexts'
 
