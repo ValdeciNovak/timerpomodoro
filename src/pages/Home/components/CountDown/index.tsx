@@ -5,8 +5,7 @@ import { CyclesContext } from '../../../../contexts/CyclesContexts'
 
 export function CountDown() {
   const {
-    activeCycle,
-    activeCycleId,
+    activeCycle,  
     markCurrentCycleAsFinished,
     amountSecondsPassed,
     setSecondsPassed,
